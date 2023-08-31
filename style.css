@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Koulen&display=swap');
+/* Estilo a toda la página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei Opti', serif;
+    font-family: 'Koulen', cursive;
+}
+h1,h3,h4,h5,h6{
+font-family: 'Koulen', cursive;
+}
+
+h2{
+    font-family: 'Kaisei Opti', serif;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 48px;
+}
+h5{
+    font-size: 48px;
+}h6{
+    font-size: 48px;
+}
+/* Fondo al header */
+header {
+    background-color: #ff0bd6;
+}
+
+/* tamano del menu de navegación y alineacion */
+.menunav {
+    height: 80px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* Tamañno al logo */
+.logotipo img {
+    width: 100px;
+}
+
+/* alineación a la derecha del las sección del menu */
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 70px;
+
+}
+
+/* centrar la lsita de menu */
+.menu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+/* quitar estilo a la lsita de menu */
+.menu nav li {
+    list-style: none;
+}
+
+/* darle estilo al titulo de la lista de menu */
+.menu nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.portada{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.p-imagen{
+    width: 50%;
+}
